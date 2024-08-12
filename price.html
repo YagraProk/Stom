@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Прайс</title>
+    <link href="src/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <div class="navigation">
+                        <div class="name"><a href="/">ООО "Стоматология"//<br>ЧП Дергунов</a></div>
+                        <nav class="menu">
+                            <button type='button' class="menu__burger">
+                                <span></span>
+                            </button>
+                            <ul class="menu__list">
+                                <li class="menu__list-item">
+                                    <a href="/" class="menu__list-link">Главная</a>
+                                </li>
+                                <li class="menu__list-item">
+                                    <a href="/price.html" class="menu__list-link">Прайс</a>
+                                </li>
+                                <li class="menu__list-item">
+                                    <a href="/documentation.html" class="menu__list-link">Документация</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="info">
+                        <div class="phone">
+                            <a href="tel:+73856222284"><img src="src/images/icons/phone.svg" alt="phoneicon"
+                                    class="phoneicon">+7 (385-62) 22-2-84</a>
+                        </div>
+                        <div class="worktime">
+                            <img src="src/images/icons/clock.svg" alt="clockicon" class="clockicon">Пн-Пт с 9.00 до
+                            17.00<br>Cб - с 10.00 до 12.00
+                            <br>Вс - выходной
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="price">
+                <h2 class="price__title-common">Прайс</h2>
+                <table class="price__table-common">
+                    <tr>
+                        <th>Код услуги</th>
+                        <th>Наименование стоматологической услуги</th>
+                        <th>Цена, руб.</th>
+                    </tr>
+                </table>
+                <h3 class="price__title-spec">Гнатологический приём</h3>
+                <h4 class="price__title-subspec">Изготовление ортопедических конструкций при проблемах с
+                    височно-нижнечелюстным суставом, или по индивидуальным параметрам</h4>
+                <table class="price__table-spec">
+                    <tr>
+                        <th>Код услуги</th>
+                        <th>Наименование стоматологической услуги</th>
+                        <th>Цена, руб.</th>
+                    </tr>
+                </table>
+                <p class="price__note">*Не является публичной офертой</p>
+
+
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__name"><a href="/">ООО "Стоматология"//<br>ЧП Дергунов</a></div>
+            <div class="footer__phone">
+                <a href="tel:+73856222284"><img src="src/images/icons/phone.svg" alt="phoneicon" class="phoneicon">+7
+                    (385-62) 22-2-84</a>
+            </div>
+        </footer>
+
+    </div>
+    <script src="src/main.js"></script>
+    <script src="/price.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Roboto';
+    src:  url('src/fonts/Roboto/Roboto-Regular.woff2') format('woff2'),
+          url('src/fonts/Roboto/Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+  
+    @font-face {
+    font-family: 'Philosopher';
+    src: url('src/fonts/Roboto/Philosopher-Regular.woff2') format('woff2'),
+         url('src/fonts/Roboto/Philosopher-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
